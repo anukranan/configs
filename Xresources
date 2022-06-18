@@ -1,0 +1,51 @@
+# universal font (is set for everything unless otherwise specified)
+*.font: xft:Terminus:size=10:antialias=true
+
+# xft
+Xft.dpi:                        96
+Xft.antialias:                  1
+Xft.autohint:                   1
+Xft.hinting:                    1
+Xft.hintstyle:                  hintslight
+Xft.lcdfilter:                  lcdlight
+Xft.rgba:                       rgb
+
+# rxvt-unicode
+URxvt*termName:                 rxvt-256color
+URxvt.depth:                    24
+URxvt*lineSpace:                1
+URxvt.letterSpace:              -1
+URxvt.iso14755:                 false
+URxvt.iso14755_52:              false
+URxvt*geometry:                 65x17
+URxvt.scrollBar:                false
+URxvt*loginShell:               true
+URxvt.internalBorder:           10
+URxvt.perl-ext:	 		default,matcher
+URxvt.url-launcher:             brave
+URxvt.matcher.button: 		1
+URxvt.transparent:              false
+URxvt.shading:                  20
+
+# xst
+st.termname:                    xst-256color
+st.borderless:                  0
+st.font:                        terminus-font:pixelsize=12:antialias=true:autohint=true;
+st.borderpx:                    4
+st.cursorshape:                 1
+st.cursorthickness:             2
+st.cursorblinkstyle:            0
+st.cursorblinkontype:           1
+st.disablebold:                 1
+st.disableitalics:              1
+st.disableroman:                1
+st.scrollrate:                  5
+st.chscale:                     1.0
+st.cwscale:                     1.0
+st.blinktimeout:                800
+st.bellvolume:                  100
+st.boxdraw:                     0
+st.boxdraw_bold:                0
+st.boxdraw_braille:             0
+#st.opacity:                     225
+st.disable_alpha_correction:    0
